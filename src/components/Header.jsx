@@ -77,15 +77,15 @@ const Header = () => {
               onClick={toggleDropdown}
               aria-expanded={dropdownOpen}
             >
-              Products ▾
+              Services ▾
             </button>
             <div
               className={`dropdown-content ${dropdownOpen ? "show" : ""}`}
             >
-              <a href="#cement">Cement</a>
-              <a href="#steel">Steel</a>
-              <a href="#bricks">Bricks</a>
-              <a href="#others">Paints</a>
+              <a href="#cement">Villas</a>
+              <a href="#steel">Interiors</a>
+              <a href="#bricks">Vastu</a>
+              
             </div>
           </div>
         </nav>
